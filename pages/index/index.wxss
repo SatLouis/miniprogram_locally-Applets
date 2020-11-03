@@ -1,0 +1,55 @@
+/* pages/index/index.wxss */
+
+.slides {
+    height: 380rpx;
+}
+
+.slides navigator,
+.slides image {
+    height: 100%;
+    width: 100%;
+}
+
+.grids {
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    font-size: 28rpx;
+    background-color: #fff;
+    border-left: 1rpx solid #eee;
+    border-bottom: 1rpx solid #eee;
+}
+
+.grids .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3333%;
+    height: 250rpx;
+    border-top: 1rpx solid #eee;
+    border-right: 1rpx solid #eee;
+    box-sizing: border-box;
+}
+
+.grids .item image {
+    width: 70rpx;
+    height: 70rpx;
+}
+
+.grids .item text {
+    font-size: 28rpx;
+    margin-top: 20rpx;
+}
+
+.links {
+    background-color: #fff;
+    justify-content: space-evenly;
+    display: flex;
+    height: 220rpx;
+}
+
+.links image {
+    width: 364rpx;
+    height: 100%;
+}
